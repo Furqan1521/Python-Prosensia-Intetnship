@@ -1,0 +1,8 @@
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+print(f"List of words: {words}")
+joined_sentence = ' - '.join(words)
+print(f"Joined with dashes: {joined_sentence}")
+name = ("Furqan", "Ali")
+print(f"First Name: {name[0]}")
+print(f"Last Name: {name[1]}")
